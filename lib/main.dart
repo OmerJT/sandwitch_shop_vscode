@@ -124,6 +124,7 @@ class _OrderScreenState extends State<OrderScreen> {
             ),
             const SizedBox(height: 20),
             Row(
+              // Footlong is a boolean toggle
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text('six-inch', style: normalText),
